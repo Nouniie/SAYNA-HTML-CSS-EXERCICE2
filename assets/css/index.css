@@ -1,0 +1,112 @@
+.navbar-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10%;
+	
+	height: 150px;
+	font-size: 20px;
+}
+
+.navbar-container img{
+	width: 200px;
+}
+
+.navbar-item{
+	color: #FFF;
+}
+
+.ligne{
+	background-color: gray;
+	height: 4px;
+	display: block;
+}
+
+.description h1{
+	text-align: center;
+	margin-top: 0;
+	color: #FFF;
+}
+
+.description{
+	background-color: #27242b;
+}
+
+.text-block{
+	display: block;
+	text-align: center;
+}
+
+.fond-violet{
+ 	background-color: #27242b;
+ 	color: #FFF;
+}
+
+.fond-blanc{
+	background-color: #FFF;
+}
+
+.fond-gris{
+	background-color: gray;
+}
+
+.espace{
+	padding-top: 100px;
+}
+
+.petit-espace{
+	padding-top: 50px;
+}
+
+.img-ordi{
+	width:80%;
+}
+
+.social-network{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap:5%;
+}
+
+.meme-ligne{
+	display: flex;
+	gap:5%;
+}
+
+.fond-violet .avatar{
+	text-align: center;
+}
+
+.fond-violet .citation{
+	text-align: center;
+}
+
+.info-siteweb img{
+	width: 200px;
+}
+
+.meme-ligne-reverse{
+	display: flex;
+	gap:5%;
+	justify-content: flex-end;
+}
+
+.info-siteweb .col-md-3 div{
+	text-align: center;
+}
+
+
+.text-block{
+	color: #FFF !important;
+}
+
+.espace-bas{
+	padding-bottom: 50px;
+}
+
+@media screen and (max-width: 600px) {
+    .dp{
+    	display: none;
+    }
+}
